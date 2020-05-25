@@ -10,7 +10,8 @@
 <h2> Robot && Backend Control </h2>
 <h3> Robot </h3>
 <img src="images/robot.png" alt="Differential Drive Robot" title="Differential Drive Robot">
-<h3> Backend Control <CODE> </h3>        
+<h3> Backend Control[CODE]/h3>     
+        
 ```matlab
         % Button pushed function: SimulasyonButton
         function SimulasyonButtonPushed(app, event)

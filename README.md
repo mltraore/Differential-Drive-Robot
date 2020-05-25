@@ -11,8 +11,8 @@
 <h3> Robot </h3>
 <img src="images/robot.png" alt="Differential Drive Robot" title="Differential Drive Robot">
 <h3> Backend Control <CODE> </h3>
+        
 ```matlab
-
         % Button pushed function: SimulasyonButton
         function SimulasyonButtonPushed(app, event)
             
@@ -164,9 +164,9 @@
                    %Simülasyonun çalışma süresi 50s dolduğunda simülasyon durdurulur. 
                    mlrobotstop(robot);                                % Robot durduruldu     
                    app.running = 0;                                   % Uygulama durduruldu
-                   app.SimulasyonButton.Text = 'Start Simulation';  % App penceresi üzerindeki başlatma butonunun yazısı "Simulasyonu Başlat" ile değiştirildi. 
-        
+                   app.SimulasyonButton.Text = 'Start Simulation';  % App penceresi üzerindeki başlatma butonunun yazısı "Simulasyonu Başlat" ile değiştirildi.         
 ```
+
 <h2> Launch </h2>
 <h3> From user interface : </h3>
 <p>
@@ -199,18 +199,3 @@
 <li><strong>Kd : </strong>Coefficient of  Derivative Controller.</li>
 <li><strong>PID: </strong>A proportional–integral–derivative controller also named as three-term controller.</li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
